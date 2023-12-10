@@ -1,6 +1,6 @@
 # math-wasm
 This package was created for research purposes to measure the performance of WASM compared to JavaScript.
-As a result, this library contains the following functions, written in C++ and used as WASM modules:
+As a result, this library contains the following functions, written in C++ and compiled to WebAssembly:
 
 - fibonacci(x)
 - factorial(x)

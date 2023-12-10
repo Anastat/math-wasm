@@ -1,7 +1,15 @@
 import fs from "fs"
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const buffer = fs.readFileSync("./src/output.wasm") // Read the WebAssembly file
-const module = await WebAssembly.instantiate(buffer, {}) // Instantiate the WebAssembly module
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
+
+const pathWasm = path.join(__dirname,'./src/output.wasm');
+
+const buffer = await fs.readFileSync(pathWasm); // Read the WebAssembly file
+const module = await WebAssembly.instantiate(buffer, {}); // Instantiate the WebAssembly module
 
 // Matrix functions.
 export * from "./src/matrix.js"
