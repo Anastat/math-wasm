@@ -23,7 +23,7 @@ const matrix = [
   [3, -1, -9, 4],
 ]
 
-Use command `npm i math-wasm` to install the package.
+Use command `npm i math-wasm-js` to install the package.
 
 To use functions in your code: 
 ```
@@ -37,5 +37,5 @@ import {
   inverse,
   adjoint,
   transpose
-} from "math-wasm"
+} from "math-wasm-js"
 ```

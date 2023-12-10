@@ -1,5 +1,5 @@
 {
-  "name": "math-wasm",
+  "name": "math-wasm-js",
   "version": "1.0.0",
   "description": "WASM-JS math library",
   "main": "index.js",
