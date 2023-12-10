@@ -1,0 +1,26 @@
+{
+  "name": "math-wasm",
+  "version": "1.0.0",
+  "description": "WASM-JS math library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastat/math-wasm.git"
+  },
+  "keywords": [
+    "wasm",
+    "js",
+    "math",
+    "matrix"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anastat/math-wasm/issues"
+  },
+  "homepage": "https://github.com/Anastat/math-wasm#readme",
+  "type": "module"
+}
